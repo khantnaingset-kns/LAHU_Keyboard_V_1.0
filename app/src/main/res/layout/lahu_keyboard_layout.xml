@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.codealchemy.lahu_keyboard_v_10.LahuKeyboardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lahu_keyboard_layout"
+    android:keyPreviewLayout="@layout/preview"
+    android:background="#E91E63"
+    android:keyBackground="@drawable/key_background"
+    android:layout_alignParentBottom="true"
+    android:popupLayout="@layout/popup_keyboard_layout"
+    android:keyTextColor="@android:color/white">
+
+</com.codealchemy.lahu_keyboard_v_10.LahuKeyboardView>

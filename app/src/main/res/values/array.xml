@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Design">
+        <item name="grey">Grey</item>
+        <item name="dark_grey">Dark Grey</item>
+        <item name="cuttie_pink">Cuttie Pink</item>
+        <item name="material_blue">Material Blue</item>
+        <item name="material_green">Material Green</item>
+        <item name="material_brown">Material Brown</item>
+    </string-array>
+    <string-array name="DesignValues">
+        <item name="grey">grey</item>
+        <item name="dark_grey">dark_grey</item>
+        <item name="cuttie_pink">cuttie_pink</item>
+        <item name="material_blue">material_blue</item>
+        <item name="material_green">material_green</item>
+        <item name="material_brown">material_brown</item>
+    </string-array>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.codealchemy.lahu_keyboard_v_10">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name=".Application"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".LahuKeyboardIME"
+            android:label="@string/lahu_ime"
+            android:permission="android.permission.BIND_INPUT_METHOD">
+
+            <meta-data
+                android:name="android.view.im"
+                android:resource="@xml/lahu_iml_method" />
+
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+        </service>
+        <input-method xmlns:android="http://schemas.android.com/apk/res/android"
+            android:settingsActivity="com.codealchemy.lahu_keyboard_v_10.MainActivity" />
+
+    </application>
+
+</manifest>

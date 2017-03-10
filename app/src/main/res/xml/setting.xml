@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+        <Preference
+            android:title="Choose Input Method"
+            android:key="sInputMethod"
+            android:summary="Choosing the Input Method of this Devices"/>
+
+        <Preference
+            android:title="Test Keyboard"
+            android:key="testKeyboard"
+            android:summary="Testing the Soft Keyboard"/>
+
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="prefVirbateOn"
+            android:summary="On and Off of SoftKeyboard On Touch Vibration"
+            android:title="On Touch Vibration On/Off" >
+        </CheckBoxPreference>
+
+        <ListPreference
+            android:key="colorSelector"
+            android:entries="@array/Design"
+            app:entryValues="@array/DesignValues"
+            android:title="Choose the Keyboard Design"
+            android:summary="Choosing the Different Color Style of Keyboard"/>
+
+</PreferenceScreen>
